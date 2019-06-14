@@ -1,0 +1,16 @@
+li:hover {
+    background-color: silver;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+span{
+    float: right;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.odradjen {
+  background: green;
+  color: #fff;
+  text-decoration: line-through;
+}
